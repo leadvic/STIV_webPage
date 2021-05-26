@@ -4,14 +4,15 @@
     <meta charset="utf-8">
     <title>STIV | Soluciones tecnológicas e informáticas de Valparaíso SpA</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <div class="signin">
       <form>
         <h2>Acceso</h2>
-        <input type="password" placeholder="Código de Acceso">
-        <button class="btn">Ingrese</button>
+        <input id="password" type="password" placeholder="Código de Acceso">
+        <input class="btn" type='button' onclick='authenticate()' value='Ingreso'>
       </form>
     </div>
   </body>
