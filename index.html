@@ -11,7 +11,7 @@
     <div class="signin">
       <form>
         <h2>Acceso</h2>
-        <input id="password" type="password" placeholder="Código de Acceso">
+        <input id="password" type="password" onkeypress='enterKeyPressed(event)' placeholder="Código de Acceso">
         <input class="btn" type='button' onclick='authenticate()' value='Ingreso'>
       </form>
     </div>

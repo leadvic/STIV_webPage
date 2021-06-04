@@ -1,5 +1,12 @@
 var loggedIn = false;
 
+function enterKeyPressed(event) {
+  if (event.keyCode == 13) {
+    event.preventDefault();
+    authenticate()
+  }
+}
+
 function authenticate() {
   var password = document.getElementById('password').value;
 
